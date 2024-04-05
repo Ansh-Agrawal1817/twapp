@@ -1,5 +1,6 @@
 import darkBgImg from "../img/darkbgimg.jpeg";
 import Button1 from "./Button1";
+import { NavLink } from 'react-router-dom'
 
 export default function Hero() {
   return (
@@ -19,8 +20,8 @@ export default function Hero() {
           and services.
         </div>
         <div className="customButtons animate-slidein700 opacity-0 flex space-x-10 my-8">
-          <Button1 text={"Facilitator"} />
-          <Button1 text={"Doctor"} />
+          <NavLink to="/login"><Button1 text={"Facilitator"} /> </NavLink>
+          <NavLink to="/login"><Button1 text={"Doctor"} /> </NavLink>
         </div>
       </div>
 
