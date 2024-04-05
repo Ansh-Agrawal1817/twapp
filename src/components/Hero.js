@@ -1,4 +1,5 @@
 import darkBgImg from "../img/darkbgimg.jpeg";
+import Button1 from "./Button1";
 
 export default function Hero() {
   return (
@@ -8,14 +9,16 @@ export default function Hero() {
       <div className="welcome border-red-600 border-3 h-screen flex flex-col justify-center items-center">
         {" "}
         {/* bg-[#00000040] */}
-        <div className="animate-slidein opacity-0 text-5xl text-[#131b20] font-semibold mb-5 ">
-          Welcome to MediSense
+        <div className="animate-slidein opacity-0 flex flex-row text-5xl text-[#131b20] font-semibold mb-5 ">
+          Welcome to
+          <div className="text-[#4876ee]">‎ MediSense</div>
         </div>
         <div className="max-w-xl animate-slidein500 opacity-0">
           Explore our cutting-edge dashboard, delivering high-quality solutions
           tailored to your needs. Elevate your experience with top-tier features
           and services.
         </div>
+        <Button1 />
       </div>
 
       {/* ---------------------- gradient ---------------------- */}

@@ -8,16 +8,12 @@ import "@fontsource/inter/400.css"; // Specify weight
 import "@fontsource/inter/500.css"; // Specify weight
 import "@fontsource/inter/600.css"; // Specify weight
 
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Features from "./components/Features";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <Features />
+      <LandingPage />
     </div>
   );
 }
