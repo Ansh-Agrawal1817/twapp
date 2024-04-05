@@ -18,7 +18,10 @@ export default function Hero() {
           tailored to your needs. Elevate your experience with top-tier features
           and services.
         </div>
-        <Button1 />
+        <div className="customButtons animate-slidein700 opacity-0 flex space-x-10 my-8">
+          <Button1 text={"Facilitator"} />
+          <Button1 text={"Doctor"} />
+        </div>
       </div>
 
       {/* ---------------------- gradient ---------------------- */}

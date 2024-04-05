@@ -1,12 +1,12 @@
-export default function Button1() {
+export default function Button1({ text }) {
   return (
     <>
       <a
         href="#_"
-        className="px-3 py-1.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-blue-600 inline-block my-7"
+        class="relative rounded min-w-32 px-5 py-2.5 overflow-hidden group bg-[#4876ee] relative hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300"
       >
-        <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-blue-600 group-hover:h-full opacity-90" />
-        <span className="relative text-md group-hover:text-white">Button Text</span>
+        <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+        <span class="relative">{text}</span>
       </a>
     </>
   );

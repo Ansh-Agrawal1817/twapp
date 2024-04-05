@@ -13,7 +13,6 @@ export default function Features() {
           product. For example, you could list the number of features, the types
           of features, add-ons, or the benefits of the features
         </div>
-
         <div className="cards">
           <Card1 />
           <Card1 />
