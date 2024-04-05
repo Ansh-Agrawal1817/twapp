@@ -8,8 +8,8 @@ export default function Navbar() {
       {/* static or fixed + relative or absolute*/}
       <div className="left flex justify-start items-center space-x-6 ">
         <img
-          className="w-9 h-9 mx-2"
-          src="https://cryptologos.cc/logos/ethereum-eth-logo.png"
+          className="h-5 mx-2"
+          src="https://imgur.com/9iliXyo.jpeg"
           alt="logo"
         />
         <div className="headings style-10 cursor-pointer">Learn</div>

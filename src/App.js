@@ -8,12 +8,12 @@ import "@fontsource/inter/400.css"; // Specify weight
 import "@fontsource/inter/500.css"; // Specify weight
 import "@fontsource/inter/600.css"; // Specify weight
 
-import LandingPage from "./pages/LandingPage";
+import MedisenseApp from "./MedisenseApp";
 
 function App() {
   return (
     <div className="App">
-      <LandingPage />
+      <MedisenseApp />
     </div>
   );
 }
