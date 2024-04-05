@@ -1,5 +1,6 @@
 import SearchBox from "./SearchBox";
 import "./css/Style10.css";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -7,11 +8,12 @@ export default function Navbar() {
       {" "}
       {/* static or fixed + relative or absolute*/}
       <div className="left flex justify-start items-center space-x-6 ">
-        <img
+        <NavLink to="/">
+          <img
           className="h-5 mx-2"
           src="https://imgur.com/9iliXyo.jpeg"
           alt="logo"
-        />
+          /> </NavLink>
         <div className="headings style-10 cursor-pointer">Learn</div>
         <div className="headings style-10 cursor-pointer">Use</div>
         <div className="headings style-10 cursor-pointer">Build</div>
